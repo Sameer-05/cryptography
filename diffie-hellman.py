@@ -1,6 +1,5 @@
 # Diffie-Hellman Code
 
-
 def prime_checker(p):
 	# Checks If the number entered is a Prime Number or not
 	if p < 1:
@@ -13,7 +12,6 @@ def prime_checker(p):
 				return -1
 			return 1
 
-
 def primitive_check(g, p, L):
 	# Checks If The Entered Number Is A Primitive Root Or Not
 	for i in range(1, p):
@@ -23,7 +21,6 @@ def primitive_check(g, p, L):
 			L.clear()
 			return -1
 		return 1
-
 
 l = []
 while 1:
